@@ -1,0 +1,15 @@
+h1{
+    /* property : value */
+    font-size: 35px;
+    background-color:cadetblue;
+    color: #FFFabb;
+
+}
+p{  
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    color:blue;
+}
