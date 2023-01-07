@@ -1,0 +1,19 @@
+ul{
+    background-color: bisque;
+    overflow: hidden;
+}
+li{
+    list-style-type:none;
+    float: left;
+}
+li a{
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+   
+
+}
+a:hover{
+    background-color:cornsilk;
+}
