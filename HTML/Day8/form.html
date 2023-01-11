@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="data.html" method="get">
+        <h1>Brand Signup Page</h1>
+
+        <div class="box">
+            <label for="firstname"> First Name : </label>
+            <input type="text" name="firstname" placeholder="Enter your first name" id="firstname" required > 
+        </div>
+
+        <div class="box">
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" placeholder="Enter your last name" id="lastname" required>
+
+        </div>
+
+        <div class="box">
+            <label for="email">email:</label>
+            <input type="email" name="email" placeholder="enter email name" id="email" required>
+        </div>
+        <div class="box">
+            <label for="password">password:</label>
+            <input type="password" name="password" placeholder="enter your password" id="password" required>
+        </div>
+        <div class="box">
+            <label for="phoneno">Phone No:</label>
+            <select id="phoneno">
+                <option value="91">+91</option>
+                <option value="92">+92</option>
+                <option value="93">+93</option>
+                <option value="1">+1</option>
+            </select>
+            <input type="tel" name="phoneno" placeholder="enter your phone no" required>
+        </div>
+        <div class="box">
+            <div><label>Gender:</label></div> 
+            <div style="margin-Top : 10px">
+                <input type="radio" id="female" value="female" name="gender" >
+                <label for="female">Female</label>
+                <input type="radio" id="male" value="male" name="gender">
+                <label for="male">male</label>
+                <input type="radio" id="other" value="Other" name="gender" >
+                <label for="other">Other</label>
+            </div>
+           
+        
+        </div>
+        <div class="box">
+            <input type="checkbox" id="tnc" name="tnc">
+            <label for="tnc">As an user I am agreeing to the terms and conditions</label>
+           
+        </div>
+
+        <div class="box">
+            <div><label for="address">Enter your address: </label></div>
+            <textarea id="address" name="address"></textarea>
+        </div>
+        <div class="box">
+            <label for="dob">dob</label>
+            <input type="date" placeholder="date of birth" name="dob" id="dob">
+        </div>
+     
+        <div class="box">
+            <label for="rating">Rate our brand</label>
+            <input type="number" id="rating" name="rating" min="1" max="10">
+        </div>
+
+        <div class="box">
+          <!--   <input type="submit"> -->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+      
+
+    </form>
+    
+</body>
+</html>
