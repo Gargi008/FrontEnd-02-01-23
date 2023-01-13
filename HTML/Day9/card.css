@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background-color: rgb(212, 211, 209);
+    padding: 15px;
+  
+    
+}
+
+.card{
+    width: 29%;
+    background-color: rgb(169, 224, 205);
+    border-radius: 15px;
+    margin: 10px;
+    display: inline-block;
+    margin-Left: 35px;
+   
+
+}
+.image img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.info{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+.details{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom:10px;
+
+}
