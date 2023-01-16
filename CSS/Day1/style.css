@@ -1,0 +1,13 @@
+.redText{
+    color: red;
+}
+h1{
+    color: blue;
+
+}
+/* id selector */
+#myh1{
+    background-color: honeydew;
+    color:rgb(43, 159, 226);
+
+}
