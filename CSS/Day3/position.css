@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.grandpaa{
+    border: 2px solid red;
+    height: 2000px;
+    margin: 40px;
+
+
+}
+.parent{
+    border: 2px solid blue;
+    margin: 15px;
+
+}
+.children{
+    border: 2px solid yellow;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+
+}
+/* relative - relative to it's normal / original position */
+/* absolute - here the position context depends if u have any ancestors with position property specified
+ then the element will be positioned relative to the closest ancestor  */
+ /* fixed - viewport is the position context */
+#one{
+    /* relative and fixed */
+    position: sticky;
+    top: 200px;
+    left: 130px;    
+}
+#three{
+    position: sticky;
+    top: 0px;
+}
+

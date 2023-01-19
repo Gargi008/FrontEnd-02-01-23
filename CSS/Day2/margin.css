@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    background-color: coral;
+    height: 3000px;
+    border: 20px solid black;
+    margin: 50px;
+}
+
+body{
+    background-color: rgb(255, 80, 238);
+    border: 10px solid rgb(234, 12, 12);
+    height: 450px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.parent{
+    background-color: brown;
+    border: 10px solid rgb(186, 234, 12);
+    height: 300px;
+    color: white;
+    margin: 30px;
+}
+
+/* all the divs inside my parent class */
+.parent div{
+    background-color: rgb(0, 60, 255);
+    border: 10px solid rgb(241, 241, 6);
+    margin: 30px;
+    height: 40px;
+    padding: 0px;
+    color: white
+
+
+}
+#child1{
+    background-color: blueviolet;
+    margin: 30px;
+    height: 40px;
+    padding: 0px;
+    color: white;
+    width: 150px;
+   /*  display:inline;  *//* if display: inline u can't give width or height to it. */
+   display: inline-block; 
+
+}
+#child2{
+    background-color: rgb(71, 126, 65);
+    margin: 30px;
+    height: 40px;
+    padding: 0px;
+    color: white;
+    width: 150px;
+    display:inline-block;
+
+
+}
+#child3{
+    background-color: rgb(226, 43, 189);
+    margin: 30px;
+    height: 40px;
+    padding: 0px;
+    color: white;
+    width: 150px;
+    display:inline;
+
+
+}
+span{
+    
+}
+
+
+

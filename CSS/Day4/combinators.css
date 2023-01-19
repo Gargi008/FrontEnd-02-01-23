@@ -1,0 +1,47 @@
+/* css combinators
+
+relationship between two selectors
+
+1. descendant combinators
+2. child combinators
+3. general sibling combbinator
+4. adjacent sibling combinator
+*/
+
+/*   1. descendant combinators*/
+/* div h3{
+    color: red;
+}
+div h1{
+    color: blue;
+} */
+
+/* 2. child combinators */
+
+/* div > h1{
+    background-color: aqua;
+
+} */
+
+
+/* 3. general sibling combbinator */
+
+/* all those elements which r the next sibling of that element */
+
+/* div ~ h1{
+    color: red;
+}
+h3 ~ h1{
+    color: blue;
+
+}
+ */
+/* 4. adjacent sibling combinator */
+
+div + h1{
+    color: red;
+}
+h3 + h1{
+    color: blue;
+
+}

@@ -1,0 +1,35 @@
+.image{
+    background-image: url("https://images.pexels.com/photos/464327/pexels-photo-464327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 20px;
+    left: 620px;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+p{
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+
+}
+button{
+    padding: 15px;
+    background-color: rgb(219, 221, 223);
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to top left, rgb(55, 128, 193) , rgb(18, 18, 240));
+
+
+}
