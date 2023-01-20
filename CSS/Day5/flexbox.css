@@ -1,0 +1,45 @@
+.container{
+    background-color: beige;
+    border: 2px solid red;
+    height: 500px;
+    margin: 15px;
+    /* flexible box - easy way of aligning boxes in a container */
+    display: flex;
+
+    flex-direction: row;
+  /*   flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+ */
+    /* this aligns the items along the main axis */
+   /*justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content:space-between;
+    justify-content:space-around; */   /* it is evenly spread along the main axis and rqual space around them */
+    /* justify-content:center; */
+    
+    justify-content: center;
+    /* this aligns the items along the cross axis */
+    align-items:center;
+
+    flex-wrap: nowrap;
+    /* flex-firectio  flex-wrap */
+   /*  flex-flow: row wrap; */
+}
+.box{
+    background-color: blueviolet;
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+
+}
+#box1{
+    order: 5;
+}
+#box2{
+    order:2;
+}
+#box3{
+    order: 10;
+}
