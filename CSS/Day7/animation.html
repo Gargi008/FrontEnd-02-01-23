@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 650px;
+            background-color: rgb(177, 130, 222);
+            width: 100%;
+        }
+        .elephant{
+            width: 50%;
+            transition-property: transform;
+            transition-duration: 5s;
+            transition-timing-function:cubic-bezier(0.93,-0.04, 0.32, 1.27);
+            transition-delay: 2s;
+        
+            
+
+         
+
+        }
+        .elephant img{
+            width: 300px; 
+        }
+        .container:hover .elephant{
+          /*   transform: translateX(100%); */
+           /*  animation-name:Elephantwalk;
+            animation-duration: 3s;
+            animation-timing-function:ease-in-out;
+            animation-delay: 3s;
+            animation-iteration-count:4;
+           
+            animation-fill-mode: forwards;
+            animation-direction: alternate; */
+            animation: Elephantwalk 3s ease-in-out 1s 4 alternate forwards;
+           
+            
+
+        }
+
+        @keyframes Elephantwalk{
+            0%{
+                transform: translateX(0%);
+            }
+            33%{
+                transform: translateY(100%);
+
+            }
+            66%{
+                transform: translateX(100%) translateY(100%);
+            }
+            100%{
+                transform: translateX(100%);
+
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elephant">
+            <img src="https://cdn.pixabay.com/photo/2018/04/04/12/28/elephant-3289662_1280.png" alt="elepahnt">
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

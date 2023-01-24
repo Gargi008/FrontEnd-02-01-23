@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin: 10%;
+}
+.card{
+    
+    background-color: rgb(173, 173, 241);
+    width: 30%;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+}
+.card:hover .blue{
+    display:inline;
+
+}
+.card:hover .grey{
+    display:none;
+
+}
+.card:hover{
+    background-color:beige;
+    border: 2px solid black;
+}
+.blue{
+    display: none;
+  
+}
+.content{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+h6{
+    
+}
