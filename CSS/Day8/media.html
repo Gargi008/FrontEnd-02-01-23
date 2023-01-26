@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle{
+            background-color: coral;
+            margin: 15px;
+            padding: 10px;
+            display: none;
+        }
+
+        /* media query */
+        /* 150 < device width <350 */
+        @media (min-width: 150px) and (max-width: 350px){
+            #android{
+                display:block;
+                background-color: chartreuse;
+            }
+        }
+          /* 300 < device width <750 */
+        @media (min-width: 400px) and (max-width: 650px){
+            #iphone{
+                display:block;
+                background-color: rgb(255, 0, 0);
+            }
+       
+        }
+        @media only screen and  (min-width: 700px) and (max-width: 850px){
+            #tablet{
+                display:block;
+                background-color: rgb(0, 55, 255);
+            }
+        }
+        @media only screen and (min-width: 900px) and (max-width: 1050px){
+            #laptop{
+                display:block;
+                background-color: rgb(255, 234, 0);
+            }
+        }
+        @media (min-width: 1100px) and (max-width: 1250px){
+            #tablet{
+                display:block;
+                background-color: rgb(179, 0, 255);
+            }
+        }
+        @media (orientation:landscape) and (min-width: 600px){
+            h1{
+                color:white;
+            }
+
+        }
+        @media print{
+            h1{
+                color: yellow;
+            }
+        }
+        /* media query - for making ur webpage responsive
+
+        1. @media rule
+        2. condition
+        
+        */
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="android" class="rectangle">
+            <h1>Android Phone</h1>
+        </div>
+        <div id="iphone" class="rectangle">
+            <h1>iphone Phone</h1>
+        </div>
+        <div id="tablet" class="rectangle">
+            <h1>tablet </h1>
+        </div>
+        <div id="laptop" class="rectangle">
+            <h1>laptop</h1>
+        </div>
+        <div id="desktop" class="rectangle">
+            <h1>desktop</h1>
+        </div>
+    </div>
+</body>
+</html>
