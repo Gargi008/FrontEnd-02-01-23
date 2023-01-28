@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 50px;
+
+        }
+        p::first-line{
+            background-color: bisque;
+            font-size: 50px;
+
+        }
+      
+        p::before{
+            content:"gm";
+            background-color: cornflowerblue;
+        }
+        p::after{
+            content: ".";
+          
+            background-color: darkblue;
+        }
+        p::selection{
+            background-color: rgb(169, 186, 169);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- specific state vs specific part -->
+     <!-- pseudo element - specific part of that element    element --- part-->
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, ipsam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad, ex, doloribus harum quod alias dolorem molestias maiores id corrupti repellendus ipsa sequi ipsam nostrum qui esse voluptas aspernatur temporibus distinctio quam! Veritatis dignissimos aspernatur ipsum libero accusantium laborum, cupiditate ut amet praesentium id repellat tenetur quibusdam exercitationem laboriosam aliquam ullam repellendus facere, possimus quia corporis, nulla et. Ipsa voluptatem quisquam assumenda odio libero. Error architecto itaque reiciendis deserunt doloremque accusantium suscipit ducimus ut voluptatem cumque laboriosam consequuntur inventore provident est quod distinctio optio odio, quae totam. Sunt, ab aut, maiores neque totam cupiditate aperiam quis dolores, voluptate perspiciatis recusandae?</p>
+</body>
+</html>
