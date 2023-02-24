@@ -1,0 +1,10 @@
+.winningTeam{
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
+.losingTeam{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
