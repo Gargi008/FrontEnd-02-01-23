@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1> here is my Clock ! </h1>
+    <h2 id="time"></h2>
+    <script>
+
+
+/* function myName(fname,lname){
+    console.log(`${fname} ${lname}`)
+}
+
+myName("Gargi","Chakraborty")
+
+const val= setTimeout(myName,3000,"Gargi","Chakraborty")//don't call the function
+
+console.log(` temporary data ${val}`)
+
+
+clearTimeout(val)
+
+console.log(` temporary data ${val}`)
+ */
+
+
+
+function myClock(){
+    const time= document.querySelector('#time')
+    let today= new Date();
+    console.log("today",today)
+    let sec= today.getSeconds()
+    sec= (sec<10)? "0"+sec : sec
+
+    let timeNow=`${today.getHours()} : ${today.getMinutes()} : ${sec}`
+    let date=`${today.getDate()} / ${today.getMonth()} / ${today.getFullYear()}`
+    console.log(timeNow)
+    console.log(date)
+    let output= `today is ${date} and the clock is ticking to ${timeNow}`
+    time.innerHTML= output
+}
+//myClock()
+setInterval(myClock,1000)
+
+
+</script>
+</body>
+</html>
